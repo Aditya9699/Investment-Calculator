@@ -12,7 +12,7 @@ const Form = (props) => {
     
     const submitHandler = (event) => {
         event.preventDefault();
-
+        console.log("Submitted!");
         props.onCalculate(userInput);
     };
     
